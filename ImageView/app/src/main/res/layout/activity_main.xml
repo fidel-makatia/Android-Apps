@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/DogimageView"
+        android:layout_width="407dp"
+        android:layout_height="701dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="137dp"
+        android:layout_height="44dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="48dp"
+        android:onClick="switchDog"
+        android:text="Switch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_goneMarginBaseline="20dp"
+        app:layout_goneMarginBottom="20dp"
+        app:layout_goneMarginEnd="20dp"
+        app:layout_goneMarginLeft="20dp"
+        app:layout_goneMarginRight="20dp"
+        app:layout_goneMarginStart="20dp"
+        app:layout_goneMarginTop="20dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
