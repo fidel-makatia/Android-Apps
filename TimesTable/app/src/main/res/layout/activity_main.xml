@@ -9,7 +9,7 @@
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="15dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
@@ -19,8 +19,8 @@
 
     <ListView
         android:id="@+id/timetablesListView"
-        android:layout_width="403dp"
-        android:layout_height="680dp"
+        android:layout_width="348dp"
+        android:layout_height="483dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="27dp"
         android:layout_marginEnd="7dp"
